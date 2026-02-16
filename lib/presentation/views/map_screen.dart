@@ -15,10 +15,10 @@ class _MapScreenState extends State<MapScreen> {
   static const LatLng _pariCenter = LatLng(48.8584, 2.2945); // 에펠탑 좌표
 
   final Set<Marker> _markers = {
-    const Marker(
-      markerId: MarkerId('hotel'),
-      position: LatLng(48.8561, 2.2930),
-      infoWindow: InfoWindow(title: '풀먼 파리 타워 에펠', snippet: '숙소'),
+    Marker(
+      markerId: const MarkerId('hotel'),
+      position: const LatLng(48.8561, 2.2930),
+      infoWindow: const InfoWindow(title: '풀먼 파리 타워 에펠', snippet: '숙소'),
       icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue),
     ),
     const Marker(
