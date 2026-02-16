@@ -1,0 +1,2 @@
+#include? "Pods/Target Support Files/Pods-SmartTrip/Pods-SmartTrip.release.xcconfig"
+#include "Generated.xcconfig"
